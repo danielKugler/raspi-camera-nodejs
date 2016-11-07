@@ -1,0 +1,23 @@
+{
+  "name": "raspi-camera-nodejs",
+  "version": "1.0.0",
+  "description": "Simple handling of the Raspberry Pi`s camera module with a nodeJS server and an AngularJS frontend.",
+  "main": "main.js",
+  "dependencies": {
+    "express": "^4.14.0",
+    "socket.io": "^1.5.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Raspberry",
+    "Pi",
+    "NodeJS",
+    "Camera",
+    "AngularJS"
+  ],
+  "author": "Daniel Kugler",
+  "license": "ISC"
+}

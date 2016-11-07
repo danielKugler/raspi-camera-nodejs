@@ -1,0 +1,20 @@
+<header>
+		<h1>Watch the Raspberry's camera</h1>
+</header>
+
+<div class="ctrl">
+	<md-button class="md-primary"
+				data-ng-show="!main.streaming.active"
+				data-ng-mousedown="main.startStream()"
+				data-my-touchstart="main.startStream()"><md-icon class="fa fa-play"></md-icon>start stream</md-button>
+
+	<md-button class="md-primary"
+				data-ng-show="main.streaming.active"
+				data-ng-mousedown="main.stopStream()"
+				data-my-touchstart="main.stopStream()"><md-icon class="fa fa-pause"></md-icon>stop stream</md-button>
+
+	<br>
+	<br>
+
+	<img class="stream" data-ng-src="{{ main.streaming.imageSrc }}">
+</div>

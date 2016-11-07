@@ -1,0 +1,54 @@
+
+html, body {
+	font-family: 'Roboto Condensed', sans-serif;
+	background-color: #282c34;
+}
+body * {
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+.camera-app .main {
+	background-color: #282c34;
+	text-align: center;
+}
+.camera-app .main header {
+	background-color: #343943;
+	padding: 10px;
+	color: #ffffff;
+	text-transform: uppercase;
+	height: 85px;
+}
+.camera-app .main header h1 {
+	margin: 5px;
+}
+.camera-app .main .ctrl {
+	padding: 30px;
+}
+.camera-app .md-button.md-default-theme.md-primary,
+.camera-app .md-button.md-primary {
+	background-color: #343643;
+	color: #949daf;
+	text-transform: none;
+	padding: 10px 30px;
+	min-width: 120px;
+	text-align: left;
+}
+.camera-app .md-button.md-default-theme.md-primary .material-icons,
+.camera-app .md-button.md-primary .material-icons {
+	margin-right: 5px;
+}
+.camera-app .md-button.md-default-theme.md-primary .material-icons:before,
+.camera-app .md-button.md-primary .material-icons:before {
+	margin-top: 4px;
+	display: block;
+	color: #949daf;
+}
+.camera-app .main .stream {
+	max-width: 640px;
+	width: 100%;
+	height: auto;
+}
