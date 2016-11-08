@@ -8,7 +8,18 @@ At first you need to enable camera support for your Pi.
 
     sudo raspi-config
 
-    -> 6 Enable Camera -> Ok -> reboot
+    6 Enable Camera -> Ok -> reboot
+
+
+## NPM packages
+To install the nodejs dependencies for the server part. In the root directory of the Application run
+
+    npm install
+
+## Bower packages
+Go into the client/ folder and run
+
+    bower install
 
 ## To Use
 Require the camera.js in your node application, define some configuration and then use the constructor to create a new camera object.
@@ -51,7 +62,7 @@ Require the camera.js in your node application, define some configuration and th
     cameraStream.stop();
     
 ## Node.JS, Socket.io, AngularJS
-To give you a quick jump right into node.js and socket.io connection with an AngularJS App, the demo application should speak for it's own. It is kjust straight forward and easy to understand. - Sourcecode tells more than a thousand words. - 
+To give you a quick jump right into node.js and socket.io connection with an AngularJS App, the demo application should speak for it's own. It is straight forward and easy to understand. - Sourcecode tells more than a thousand words. - 
  
     ----------------------------------------------------------------------------
     "THE BEER-WARE LICENSE" (Revision 42):
